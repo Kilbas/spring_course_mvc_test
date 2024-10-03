@@ -4,6 +4,7 @@ import javax.validation.constraints.*;
 
 public class Employee {
 
+
     @Size(min = 2,message = "name must be min 2 symbols")
     private String name;
     @NotEmpty(message = "surname is required field")
