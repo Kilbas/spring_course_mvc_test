@@ -24,6 +24,8 @@
     <form:option value="Human Resurses" label="HR"/>
     <form:option value="Sales" label="Sales"/>
 </FORM:select>
+
+    <br><br>
     <br><br>
     Which car do you want?
     BMW<form:radiobutton path="carBrend" value="BWM"/>
